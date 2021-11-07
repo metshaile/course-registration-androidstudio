@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- // Mets Haile
+// Final Project
+// 6/6/21 -->
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/depaul_conf"
+    tools:context=".ConfirmationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="32dp"
+            android:text="DePaul Registration Confirmation"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="40dp"
+            android:textColorHint="@color/black"
+            android:textSize="17sp"
+            android:hint="Name: "/>
+
+
+
+        <TextView
+            android:id="@+id/txt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="64dp"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="40dp"
+            android:textSize="17sp"
+            android:hint="ID Number:" />
+
+        <TextView
+            android:id="@+id/txt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="40dp"
+            android:textColorHint="@color/black"
+            android:textSize="17sp"
+            android:hint="Email:"/>
+
+
+        <TextView
+            android:id="@+id/txt_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="40dp"
+            android:textColorHint="@color/black"
+            android:textSize="17sp"
+            android:hint="Course:"/>
+
+
+        <TextView
+            android:id="@+id/txt_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="40dp"
+            android:textColorHint="@color/black"
+            android:textSize="17sp"
+            android:hint="Senority: "/>
+
+
+        <TextView
+            android:id="@+id/txt_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="40dp"
+            android:textColorHint="@color/black"
+            android:textSize="17sp"
+            android:hint="Campus:" />
+
+
+        <TextView
+            android:id="@+id/txt_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="40dp"
+            android:textColorHint="@color/black"
+            android:textSize="17sp"
+            android:hint="Days:"/>
+
+        <TextView
+            android:id="@+id/txt_vaccinated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:text="Vaccinated:"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/royalblue"
+                android:onClick="onClickFirst"
+                android:text="@string/first" />
+
+
+            <Button
+                android:id="@+id/btn_last"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/royalblue"
+                android:onClick="onClickLast"
+                android:text="@string/last" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,22 @@
+<!-- Resource file: strings.xml -->
+
+<resources>
+    <string name="app_name">HaileFinalProj</string>
+    <string name="first"><![CDATA[<<]]></string>
+    <string name="prev"><![CDATA[<]]></string>
+    <string name="next"><![CDATA[>]]></string>
+    <string name="last"><![CDATA[>>]]></string>
+
+    <string-array name="year">
+        <item>Freshman</item>
+        <item>Sophomore</item>
+        <item>Junior</item>
+        <item>Senior</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>LP</item>
+        <item>CDM</item>
+    </string-array>
+
+</resources>

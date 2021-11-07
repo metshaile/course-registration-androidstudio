@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- // Mets Haile
+// Final Project
+// 6/6/21 -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/depaul2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
+            android:text="DePaul Fall 2021-2022 Registration"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/edtxt_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:hint="Enter Name:" />
+
+        <EditText
+            android:id="@+id/edtxt_id"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="8dp"
+            android:hint="Enter ID Number:"
+            android:textColor="@color/black"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edtxt_email"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:hint="Enter Email:" />
+
+        <EditText
+            android:id="@+id/edtxt_course"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:hint="Enter Course:"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/spn_year"
+            android:layout_width="204dp"
+            android:textColor="@color/black"
+            android:layout_height="23dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/year" />
+
+        <Spinner
+            android:id="@+id/spn_location"
+            android:layout_width="204dp"
+            android:textColor="@color/black"
+            android:layout_height="23dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/location" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="24dp">
+
+            <RadioButton
+                android:id="@+id/rad_monwed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Monday/Wednesday" />
+
+            <RadioButton
+                android:id="@+id/rad_tuth"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuesday/Thursday" />
+
+            <RadioButton
+                android:id="@+id/rad_everyday"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Monday-Friday" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/chk_vaccinated"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="24dp"
+            android:text="Vaccinated?" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/royalblue"
+            android:onClick="submitInfo"
+            android:text="Register for 2022" />
+
+
+    </LinearLayout>
+</ScrollView>
